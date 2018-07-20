@@ -1,5 +1,6 @@
 <?php
 use App\AbstractApplication;
+use src\Address\Address;
 
 /**
  * This class is the main application. You will overwrite the "run" method to implement your code
@@ -19,5 +20,6 @@ class Application extends AbstractApplication
     {
         return 'Please, insert your code inside the src/Application::run method';
     }
+    
 }
 
