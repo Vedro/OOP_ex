@@ -44,6 +44,7 @@ if (isset($_POST['human'])) {
     		<fieldset>
         		<input type="text" name="human[name]" placeholder="name">
         		<input type="number" name="human[age]" placeholder="age">
+        		<input type="text" name="human[brain]" placeholder="brain">
         		<select name="human[gender]">
         			<option value="male">Male</option>
         			<option value="female">Female</option>
