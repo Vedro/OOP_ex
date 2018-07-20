@@ -1,17 +1,19 @@
 <?php
 
-Class Date
+namespace Date;
+
+class Date
 {
-    private $day;
-    private $month;
-    private $year;
+    public $day;
+    public $month;
+    public $year;
 
     
 
     /**
      * Get the value of day
      */ 
-    public function getDay()
+    public function getDay() : int
     {
         return $this->day;
     }
@@ -21,7 +23,7 @@ Class Date
      *
      * @return  self
      */ 
-    public function setDay($day)
+    public function setDay(int $day)
     {
         $this->day = $day;
 
@@ -31,7 +33,7 @@ Class Date
     /**
      * Get the value of month
      */ 
-    public function getMonth()
+    public function getMonth() : int
     {
         return $this->month;
     }
@@ -41,7 +43,7 @@ Class Date
      *
      * @return  self
      */ 
-    public function setMonth($month)
+    public function setMonth(int $month)
     {
         $this->month = $month;
 
@@ -51,7 +53,7 @@ Class Date
     /**
      * Get the value of year
      */ 
-    public function getYear()
+    public function getYear() : int
     {
         return $this->year;
     }
@@ -61,17 +63,17 @@ Class Date
      *
      * @return  self
      */ 
-    public function setYear($year)
+    public function setYear(int $year)
     {
         $this->year = $year;
 
         return $this;
     }
 
-    public function __construct(int $day, int $month, int $year)
-    {
-        $this->day = $day;
-        $this->month = $month;
-        $this->year = $year;
-    }
+    // public function __construct(int $day, int $month, int $year)
+    // {
+    //     $this->day = $day;
+    //     $this->month = $month;
+    //     $this->year = $year;
+    // }
 }

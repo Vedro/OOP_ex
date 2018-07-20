@@ -1,11 +1,11 @@
 <?php
 
-Class Commission implements WorkInterface
+class Commission implements WorkInterface
 {
     private $employees = [];
     private $president;
-    private $commissionners;
-    private $vicePresident;
+    private $commissionners = [];
+    private $vicePresident = [];
 
 
     /**

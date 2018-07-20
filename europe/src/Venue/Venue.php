@@ -2,7 +2,7 @@
 use src\Address\Address;
 use src\Date\Date;
 
-Class Venue
+class Venue
 {
     private $date;
     private $address;
